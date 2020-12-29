@@ -1,0 +1,155 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+body{
+    height:100vh;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(247, 247, 247);
+
+    
+    
+    
+}
+
+header{
+    height: 150px;
+    background-color: #b9bfc5 ;
+    border-bottom: 1px solid rgb(236, 11, 11);
+    border-top: 1px solid;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(29, 2, 2);
+    padding: 30px;
+   
+}
+.column {
+
+    width:1200px;
+    margin: 0px auto;
+    
+    
+
+}
+
+section{
+    height: 750px;
+    width:900px;
+    display: inline;
+    box-sizing: border-box;
+    float:left;
+    margin:10px 0 10px 0;
+    
+    
+}
+section h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    
+    
+}
+.overflow{
+    overflow: scroll;
+    padding: 20px;
+    
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.italic{
+    font-style: italic;
+    font-size:18px;
+}
+.bold{
+    font-weight: bold;
+}
+
+    
+
+nav ul{
+    display: inline;
+    height: 750px;
+    width: 300px;
+    box-sizing: border-box;
+    float: left;
+    padding: 0px 5px;
+    border-right: 2px solid rgb(235, 11, 11);
+    margin:10px 0 10px 0;
+    list-style-type: none;
+    
+    
+
+    
+}
+
+nav li a{
+    display: block;
+    padding: 50px ;
+    text-decoration: none;
+    font-size: 25px;
+    color:  rgb(199, 8, 8);
+    transition: 100ms;
+    text-decoration: none;
+    
+}
+
+nav li a:hover,
+nav li a:active {
+    background-color: rgb(235, 11, 11);
+    color: white;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 860px;
+    margin: 0 auto;
+    
+}
+th{
+    padding: 18px;
+}
+td{
+    padding: 12px;
+}
+
+th,td{
+    border: 2px solid #e6e6e6
+}
+
+tr{
+    background-color: rgb(237, 237, 237);
+}
+
+tr.bright{
+    background-color:rgb(247, 247, 247) ;
+}
+
+#heading{
+    background-color: rgb(185, 191, 197); 
+    color: rgb(29, 2, 2);
+} 
+
+
+
+footer{
+    border-top:1px solid rgb(235, 11, 11);
+    height: 50px;
+    clear:left;
+    padding: 5px 0px 0px 10px;
+    background-color: rgb(185, 191, 197); 
+    
+
+}
